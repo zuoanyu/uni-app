@@ -45,7 +45,7 @@
 
 **代码示例**
 ```javascript
-	uni.$once('update',function(data){
+	uni.$once('update',(data)=>{
 		console.log('监听到事件来自 update ，携带参数 msg 为：' + data.msg);
 	})
 ```
